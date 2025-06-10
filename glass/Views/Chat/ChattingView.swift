@@ -42,16 +42,22 @@ struct ChattingView: View {
                 }
                 .toolbar {
                     ToolbarItem(placement: .bottomBar) {
-                        // VStack {
-                            TextField("Message", text: $newMessageText)
+                        Button("Voice", systemImage: "mic.fill") {
+                            showMoreOptions()
+                        }
+                    }
+                    
+                    ToolbarSpacer(.fixed, placement: .bottomBar)
+                    
+                    ToolbarItem(placement: .bottomBar) {
+                        ZStack {
+                            TextField("Tap here to start typing...", text: $newMessageText)
                                 .onSubmit {
                                     sendMessage()
                                 }
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                                .controlSize(.large)
-                                .frame(maxWidth: .infinity)
-                                .fixedSize(horizontal: false, vertical: true)
-                        // }
+                                .padding(.horizontal)
+                                .submitLabel(.send)
+                        }
                     }
                     
                     ToolbarSpacer(.fixed, placement: .bottomBar)
@@ -61,13 +67,6 @@ struct ChattingView: View {
                             Button("More", systemImage: "plus") {
                                 showMoreOptions()
                             }
-                        }
-                    } else {
-                        ToolbarItem(placement: .bottomBar) {
-                            Button("Send", systemImage: "paperplane") {
-                                sendMessage()
-                            }
-                            .buttonStyle(.borderedProminent)
                         }
                     }
                 }
@@ -87,7 +86,6 @@ struct ChattingView: View {
                 keyboardHeight = height
             }
         }
-        // Tab bar visibility is now controlled by the root view based on navigation stack depth
     }
     
     private func sendMessage() {
