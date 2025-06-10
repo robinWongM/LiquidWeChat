@@ -57,7 +57,7 @@ struct ContentView: View {
                 }
             }
         }
-        .tabBarMinimizeBehavior(.onScrollDown)
+        // .tabBarMinimizeBehavior(.onScrollDown)
         .accentColor(.accentColor)
     }
 }

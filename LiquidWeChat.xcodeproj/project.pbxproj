@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		40CD65F12DF85A4B00D9B6E3 /* glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD65F12DF85A4B00D9B6E3 /* LiquidWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		40CD65F32DF85A4B00D9B6E3 /* glass */ = {
+		40CD65F32DF85A4B00D9B6E3 /* LiquidWeChat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = glass;
+			path = LiquidWeChat;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		40CD65E82DF85A4B00D9B6E3 = {
 			isa = PBXGroup;
 			children = (
-				40CD65F32DF85A4B00D9B6E3 /* glass */,
+				40CD65F32DF85A4B00D9B6E3 /* LiquidWeChat */,
 				40CD65F22DF85A4B00D9B6E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		40CD65F22DF85A4B00D9B6E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40CD65F12DF85A4B00D9B6E3 /* glass.app */,
+				40CD65F12DF85A4B00D9B6E3 /* LiquidWeChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40CD65F02DF85A4B00D9B6E3 /* glass */ = {
+		40CD65F02DF85A4B00D9B6E3 /* LiquidWeChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40CD65FC2DF85A4D00D9B6E3 /* Build configuration list for PBXNativeTarget "glass" */;
+			buildConfigurationList = 40CD65FC2DF85A4D00D9B6E3 /* Build configuration list for PBXNativeTarget "LiquidWeChat" */;
 			buildPhases = (
 				40CD65ED2DF85A4B00D9B6E3 /* Sources */,
 				40CD65EE2DF85A4B00D9B6E3 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				40CD65F32DF85A4B00D9B6E3 /* glass */,
+				40CD65F32DF85A4B00D9B6E3 /* LiquidWeChat */,
 			);
-			name = glass;
+			name = LiquidWeChat;
 			packageProductDependencies = (
 			);
 			productName = glass;
-			productReference = 40CD65F12DF85A4B00D9B6E3 /* glass.app */;
+			productReference = 40CD65F12DF85A4B00D9B6E3 /* LiquidWeChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 40CD65EC2DF85A4B00D9B6E3 /* Build configuration list for PBXProject "glass" */;
+			buildConfigurationList = 40CD65EC2DF85A4B00D9B6E3 /* Build configuration list for PBXProject "LiquidWeChat" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40CD65F02DF85A4B00D9B6E3 /* glass */,
+				40CD65F02DF85A4B00D9B6E3 /* LiquidWeChat */,
 			);
 		};
 /* End PBXProject section */
@@ -264,12 +264,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.hmr.glass;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.hmr.liquid.wechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -308,12 +308,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.hmr.glass;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.hmr.liquid.wechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40CD65EC2DF85A4B00D9B6E3 /* Build configuration list for PBXProject "glass" */ = {
+		40CD65EC2DF85A4B00D9B6E3 /* Build configuration list for PBXProject "LiquidWeChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40CD65FA2DF85A4D00D9B6E3 /* Debug */,
@@ -341,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40CD65FC2DF85A4D00D9B6E3 /* Build configuration list for PBXNativeTarget "glass" */ = {
+		40CD65FC2DF85A4D00D9B6E3 /* Build configuration list for PBXNativeTarget "LiquidWeChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40CD65FD2DF85A4D00D9B6E3 /* Debug */,

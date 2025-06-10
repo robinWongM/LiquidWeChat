@@ -25,7 +25,7 @@ struct ChatsView: View {
             }
             .listStyle(PlainListStyle())
             .navigationTitle("WeChat")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {

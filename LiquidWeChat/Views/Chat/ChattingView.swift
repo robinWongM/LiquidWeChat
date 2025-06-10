@@ -47,7 +47,9 @@ struct ChattingView: View {
                         }
                     }
                     
-                    ToolbarSpacer(.fixed, placement: .bottomBar)
+                    if #available(iOS 26.0, *) {
+                        ToolbarSpacer(.fixed, placement: .bottomBar)
+                    }
                     
                     ToolbarItem(placement: .bottomBar) {
                         ZStack {
@@ -60,7 +62,9 @@ struct ChattingView: View {
                         }
                     }
                     
-                    ToolbarSpacer(.fixed, placement: .bottomBar)
+                    if #available(iOS 26.0, *) {
+                        ToolbarSpacer(.fixed, placement: .bottomBar)
+                    }
                     
                     if newMessageText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                         ToolbarItem(placement: .bottomBar) {

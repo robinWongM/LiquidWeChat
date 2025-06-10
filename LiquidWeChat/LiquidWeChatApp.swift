@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct glassApp: App {
+struct LiquidWeChatApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
