@@ -30,9 +30,7 @@ struct MeView: View {
                 Label("Settings", systemImage: "gearshape.fill")
             }
         }
-        .listStyle(GroupedListStyle())
         .navigationTitle("Me")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -3,9 +3,15 @@ import SwiftUI
 struct DiscoverView: View {
     var body: some View {
         List {
-            Label("Moments", systemImage: "circle.grid.2x2.fill")
-            Label("Scan", systemImage: "qrcode.viewfinder")
-            Label("Top Stories", systemImage: "newspaper.fill")
+            Section {
+                Label("Moments", systemImage: "circle.grid.2x2.fill")
+            }
+            Section {
+                Label("Scan", systemImage: "qrcode.viewfinder")
+            }
+            Section {
+                Label("Top Stories", systemImage: "newspaper.fill")
+            }
         }
         .navigationTitle("Discover")
         .navigationBarTitleDisplayMode(.inline)
